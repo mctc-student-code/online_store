@@ -10,11 +10,6 @@ from django.contrib.auth import login,authenticate, logout
 
 # from django.core.paginator import Paginator,EmptyPage,InvalidPage
 
-# Create your views here.
-def index(request):
-    text_var = "Shop App"
-    return HttpResponse(text_var)
-
 
 # Category View
 def allProdCat(request, c_slug=None):
