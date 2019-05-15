@@ -9,7 +9,7 @@
 {% endblock %}
 {% block title %}
     {% if category %}
-        {{ category.name }}
+        {{ category.name }} - Z Toys Store
     {% else %}
         See Our Collection in Z Store
     {% endif %}
@@ -19,6 +19,8 @@
     {% if category %}
         <div class="row my_row_class">
             <div class="mx-auto">
+
+                <br>
                 <p><a href="{% url 'shop:allProdCat' %}">Our Product Collection</a> |{{ category.name }} </p>
             </div>
         </div>
