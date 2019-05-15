@@ -134,7 +134,8 @@ def cart_remove(request, product_id):
         cart_item.save()
     else:
         cart_item.delete()
-        return redirect('cart:cart_detail')
+    return redirect('cart:cart_detail')
+
 
 #full remove
 def full_remove(request, product_id):
