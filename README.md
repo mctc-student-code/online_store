@@ -1,4 +1,5 @@
 #ONLINE STORE(Z Kids Toys Store )
+THis App was built with the help with an online Django course
 This application consists of multiple apps that interacts together. 
 The application includes:
 1- shop app to manage categories and the associated products.
